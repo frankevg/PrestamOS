@@ -1,0 +1,366 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,100&family=Raleway:wght@100;200;500;700;800;900&display=swap');
+
+@font-face {
+  font-family: ITC Avant Garde Std Bk;
+  src: url(../fonts/ITCAvantGardeStdBk.otf);
+}
+
+
+/* Variables */
+
+:root {
+  --fontHeading: 'PT Sans', sans-serif;
+  --fontParagraph: 'Open Sans', sans-serif;
+  --fontPrincipal: 'Staatliches', cursive;
+  --fontSecondary: 'ITC Avant Garde Std Bk';
+  --color1: #F4F5F7;
+  --color2: #00DBD3;
+  --color3: #F9860C;
+  --color4: #3F3F3F;
+  --color5: #2273dc;
+  --color6: #03b2d4;
+  --color7: #0061c4;
+
+  --colorform: #B8C6D5;
+  --fondo: rgba(255, 255, 255, 0.75)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a#header {
+  color: #ECF0F1;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+i#toggle {
+  font-size: 1.2em;
+  color: #ECF0F1;
+
+}
+
+i {
+  margin-right: 5px;
+}
+
+/****   SUBMENU ***/
+i#submenu {
+  float: right;
+}
+
+/***************** Different Types of colors*/
+
+.creamwhite {
+  color: #ECF0F1;
+}
+
+.lite {
+  color: #00a0df
+}
+
+.headerdark {
+  color: #22313F;
+}
+
+/*****************End Different Types of colors*/
+
+div#header {
+  width: 100%;
+  height: 50px;
+  background-color: #22313F;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.logo a {
+  font-size: 1.2em;
+}
+
+.logo a span {
+  font-weight: 300;
+}
+
+#logocenter {
+  text-align: center;
+  margin-top: 1px;
+  margin-left: 20%;
+  width: auto;
+  background-color: #22313F;
+}
+
+#logocenter a {
+  font-size: 1.5em;
+}
+
+#logocenter a span {
+  font-weight: 400;
+}
+
+#logoright {
+  margin-right: 2%;
+  float: right;
+  width: 150px;
+}
+
+#logo,
+#logocenter,
+#logoright {
+
+  display: inline-block;
+}
+
+
+/***********************Start Menu Drop down*********************/
+
+.dropdownmenu {
+  margin-top: 6px;
+  margin-right: 20%;
+  background-color: #22313F;
+
+
+
+}
+
+ul#dropdown li {
+
+  list-style: none;
+  position: relative;
+
+}
+
+ul#dropdown li a {
+
+  width: 140px;
+  color: #ccc;
+  display: block;
+  padding: 10px;
+  margin-right: 50%;
+  font-size: 0.8em;
+  border: 1px solid #0A0A0A;
+  transition: 0.2s;
+  background-color: var(--color7);
+
+
+}
+
+ul#dropdown li a:active {
+  transform: translateY(-1px);
+}
+
+.drop-main-menu-item:active>ul {
+  display: block;
+}
+
+
+.drop-sub-menu {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  width: 150px;
+}
+
+#noti-count {
+  position: absolute;
+  top: -4px;
+  right: -90px;
+  background-color: #00a0df;
+  color: #fff;
+  padding: 5px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.nav-item {
+  text-shadow: none;
+  font-family: var(--fontSecondary),
+    sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+  line-height: 1.8;
+  transition-duration: 0.25s;
+  color: #404040;
+
+  margin: 0 30px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 20px 0px 5px 0px;
+  text-transform: uppercase;
+  margin-top: .2rem;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.13); */
+
+}
+
+/***********************End Menu Drop down*********************/
+
+/***********************Start Menu Sidebar*********************/
+.sidebar img {
+  width: 150px;
+  margin-block: 1.5rem 2rem;
+}
+
+div#container {
+  width: 100%;
+  /*height: 1200px;*/
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  background-color: var(--color1);
+  display: inline-block;
+}
+
+.sidebar {
+  width: 258px;
+  /*height: 500px;*/
+  height: 100%;
+  min-height: 100%;
+  background-color: var(--color1);
+  float: left;
+
+  margin: 1px 15px 10px 15px;
+}
+
+.content {
+  margin: 1px 10px 10px 10px;
+  width: auto;
+  /*height: 500px;*/
+  background-color: var(--color1);
+  padding-left: 10px;
+  /* float: left; */
+  /* border: 1px solid #ABB7B7; */
+  display: inline-block;
+  height: 100%;
+  min-height: 100%;
+
+}
+
+
+
+ul#nav li {
+  list-style: none;
+}
+
+
+
+ul#nav li a {
+  color: var(--color4);
+  display: block;
+  padding: 10px;
+  font-size: 1.1em;
+  /* border-bottom: 1px solid #ECF0F1; */
+  ;
+  transition: 0.2s;
+}
+
+.title-menu .sub-menu {
+  font-size: 10px;
+  color: #ccc;
+}
+
+
+.sub-menu ul#nav li a {
+  border-bottom: 1px solid #ECF0F1;
+  color: #ccc;
+}
+
+.title-menu {
+  padding: 0.5em 2em;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 00;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-block: 1.5rem;
+  text-align: center;
+
+}
+
+ul#nav li a:hover {
+  color: var(--color5);
+  transform: translateY(-4px);
+}
+
+.main-menu-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.main-menu-item:active>ul {
+  display: block;
+}
+
+
+.sub-menu {
+  display: none;
+  position: relative;
+  left: 0px;
+  width: 200px;
+
+}
+
+
+/***********************End Menu Sidebar*********************/
+/******Creating a footer************/
+div#footer {
+  font-family: var(--fontSecondary);
+  position: relative;
+  clear: both;
+  text-align: center;
+  font-weight: 100;
+  padding-block: 0.1rem 0.5rem;
+
+}
+
+
+
+/****************Menu******************/
+/****************Tabla****************/
+.content table th {
+  font-family: OpenSans-Regular;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+  background-color: var(--color7);
+  padding-block: 1rem;
+  border: 0px solid;
+}
+
+.min-img img {
+  display: flex;
+  width: 200px;
+  margin: 1rem
+}
