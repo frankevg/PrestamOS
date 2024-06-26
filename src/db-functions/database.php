@@ -3,7 +3,7 @@
 $hostname     = "localhost"; // enter your hostname
 $username     = "root";  // enter your table username
 $password     = "";   // enter your password
-$databasename = 'bignet-db';  // enter your database
+$databasename = 'prestamos-db';  // enter your database
 // Create connection 
 $conn = new mysqli($hostname, $username, $password, $databasename);
 // Check connection 

@@ -20,7 +20,7 @@
                 <th class="column7">NÚMERO DE DOCUMENTO</th>
                 <th class="column8">DISTRITO</th>
                 <th class="column9">DIRECCIÓN</th>
-                <th class="column10">PLAN</th>
+    
                 <th class="column11">TIPO CLIENTE</th>
             </tr>
         </thead>
@@ -36,8 +36,7 @@
                     <td><?php echo $consulta['documento_type']; ?></td>
                     <td><?php echo $consulta['documento_num']; ?></td>
                     <td><?php echo $consulta['distrito']; ?></td>
-                    <td><?php echo $consulta['direccion']; ?></td>
-                    <td><?php echo $consulta['plan']; ?></td>
+                    <td><?php echo $consulta['direccion']; ?></td>                   
                     <td><?php echo $consulta['tipo_cliente']; ?></td>
                 </tr>
             <?php endwhile; ?>

@@ -3,7 +3,7 @@
 
 
 <div class="content">
-  <p>USUARIO LOGUEADO</p>
+  <p>Bienvenido</p>
 
 
 </div>

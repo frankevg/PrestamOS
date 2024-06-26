@@ -22,7 +22,6 @@ $resultado = mysqli_query($conn, $query);
             <th class="column7">NÚMERO DE DOCUMENTO</th>
             <th class="column8">DISTRITO</th>
             <th class="column9">DIRECCIÓN</th>
-            <th class="column10">PLAN</th>
             <th class="column11">TIPO CLIENTE</th>
         </tr>
     </thead>
@@ -39,7 +38,6 @@ $resultado = mysqli_query($conn, $query);
                 <td><?php echo $consulta['documento_num']; ?></td>
                 <td><?php echo $consulta['distrito']; ?></td>
                 <td><?php echo $consulta['direccion']; ?></td>
-                <td><?php echo $consulta['plan']; ?></td>
                 <td><?php echo $consulta['tipo_cliente']; ?></td>
             </tr>
         <?php endwhile; ?>

@@ -12,12 +12,22 @@
         <ul id="nav">
             <li class="nav-item">Elementos</li>
             <!-- <li class="main-menu-item title-menu"><a href="/admin/dashboard/dashboard.php"> <i class="fa fa-home"></i>DASHBOARD</a></li> -->
-            <li class="main-menu-item title-menu"><a href="#"> <i class="fa fa-file"></i>INICIO<i id="submenu" class="fa fa-angle-down"></i></a>
+            <li class="main-menu-item title-menu"><a href="#"> <i class="fa fa-file"></i>Perfil<i id="submenu" class="fa fa-angle-down"></i></a>
                 <ul class="sub-menu">
-                    <li><a href="/admin/dashboard/portada.php"><i></i>Portada</a></li>
-                    <li><a href="/admin/dashboard/planes.php"><i></i>Planes</a></li>
-                    <!-- <li><a href="#"><i></i>Te contactamos</a></li> -->
-                    <li><a href="/admin/dashboard/faq.php"><i></i>Preguntas frecuentes</a></li>
+                    <li><a href="/admin/dashboard/perfil.php"><i></i>Ver Perfil de Usuario</a></li>
+        
+                </ul>
+            </li>
+            <li class="main-menu-item title-menu"><a href="#"> <i class="fa fa-file"></i>Simulación<i id="submenu" class="fa fa-angle-down"></i></a>
+                <ul class="sub-menu">
+                    <li><a href="/admin/dashboard/metodo-frances.php"><i></i>Simulación Amortización Método Francés</a></li>
+                    <li><a href="/admin/dashboard/calculadora-prestamo/calculo1.php"><i></i>Simulación con plazo de gracia y registro</a></li>
+                    
+                        </ul>
+            </li>
+            <li class="main-menu-item title-menu"><a href="#"> <i class="fa fa-file"></i>Registros<i id="submenu" class="fa fa-angle-down"></i></a>
+                <ul class="sub-menu">
+                <li><a href="/admin/dashboard/calculadora-prestamo/registros.php"><i></i>Acceder a registros de préstamos</a></li>
                 </ul>
             </li>
             <li class="main-menu-item title-menu"><a href="#"> <i class="fa fa-file"></i>NOSOTROS<i id="submenu" class="fa fa-angle-down"></i></a>
