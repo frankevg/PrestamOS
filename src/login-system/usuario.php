@@ -1,8 +1,8 @@
 <?php
 require '../db-functions/database.php';
 //Crear Usuario
-$email = "castro.k@bignet.pe";
-$password = "@bignet2022";
+$email = "admin@admin.com";
+$password = "admin";
 $passwordHash = password_hash($password, PASSWORD_BCRYPT);
 
 //Declarar Query
