@@ -14,26 +14,14 @@
                 <h2>Elige una opción</h2>
 
                 <div class="tipocliente">
-                    <label for="hogar">Personal</label>
-                    <input type="radio" name="tipo_cliente" value="Hogar" id="Hogar" required>
+                    <label for="Personal">Personal</label>
+                    <input type="radio" name="tipo_cliente" value="Personal" id="Personal" required>
 
                     <label for="empresa">Empresa</label>
                     <input type="radio" name="tipo_cliente" value="Empresa" id="Empresa" required>
                 </div>
 
-                <!-- <div class="one-row">
-                    <label for="planes">Plan</label>
-                    <select id="planes" name="plan" required>
-                        <option value="" disabled selected>Seleccione plan </option>
-                        <option value="50">Plan de 50 mbps</option>
-                        <option value="80">Plan de 80 mbps</option>
-                        <option value="100">Plan de 100 mbps</option>
-                        <option value="150">Plan de 150 mbps</option>
-                        <option value="200">Plan de 200 mbps</option>
-                        <option value="300">Plan de 300 mbps</option>
 
-                    </select>
-                </div> -->
                 <div class="two-row">
                     <div class="one-row">
                         <label class="nombre" for="nombre">Nombre</label>
@@ -114,7 +102,8 @@
                             <option value="Santiago de Surco">Santiago de Surco</option>
                             <option value="Surquillo">Surquillo</option>
                             <option value="Villa El Salvador">Villa El Salvador</option>
-                            <option value="Villa María del Triunfo">Villa María del Triunfo</option>
+                            <option value="Villa María del Triunfo">Villa María del Triunfo</option>                       
+                        </select>
                     </div>
                     <div class="one-row">
                         <label for="direccion">Dirección</label>
